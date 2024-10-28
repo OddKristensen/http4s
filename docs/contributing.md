@@ -54,6 +54,10 @@ Run `sbt`, then use one of the following commands:
 [Node.js]: https://nodejs.org
 [yarn]: https://yarnpkg.com/getting-started/install
 
+**NOTE:** sbt will attempt to read the tags of your local repository. If there 
+are no tags present, the project will not load. Ensure that you have fetched
+all the tags from the remote repository.
+
 ## Coding Standard
 
 ### Formatting
